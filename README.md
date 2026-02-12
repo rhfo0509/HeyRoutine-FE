@@ -6,7 +6,7 @@
 
 <img width="1920" height="1080" alt="title_slide" src="https://github.com/user-attachments/assets/8a651359-a381-4e88-85b6-c117fdc1b91c" />
 
-<br><br>
+<br>
 
 ![React Native](https://img.shields.io/badge/React_Native-0.74.5-61DAFB?style=for-the-badge&logo=react)
 ![Expo](https://img.shields.io/badge/Expo-51.0.14-000020?style=for-the-badge&logo=expo)
@@ -73,47 +73,6 @@
   </tbody>
 </table>
 
-## 시작 가이드
-
-### 설치 및 실행
-
-```bash
-# 1. Repository 클론
-git clone https://github.com/your-repo/HeyRoutine-FE.git
-cd HeyRoutine-FE
-
-# 2. 패키지 설치
-npx expo install
-
-# 3. 환경 변수 설정
-# .env 파일 생성 후 아래 내용 입력
-EXPO_PUBLIC_API_BASE_URL=your_backend_api_url
-AWS_ACCESS_KEY_ID=your_aws_access_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret_key
-AWS_REGION=your_aws_region
-S3_BUCKET_NAME=your_s3_bucket
-
-# 4. 개발 서버 실행
-npx expo start
-```
-
-### Android APK 빌드
-
-```bash
-# EAS Build를 이용한 프로덕션 빌드
-eas build --platform android --profile production
-
-# 또는 로컬 빌드
-npx expo run:android --variant release
-```
-
-### Firebase 설정
-
-1. [Firebase Console](https://console.firebase.google.com/)에서 프로젝트 생성
-2. **Android 앱 등록** (`com.shinhan.heyroutine`)
-3. **FCM (Firebase Cloud Messaging)** 활성화
-4. `google-services.json` 파일을 `android/app/` 디렉토리에 추가
-
 ## 핵심 기능
 
 <div align="center">
@@ -153,6 +112,44 @@ npx expo run:android --variant release
 </div>
 
 <br>
+
+### 5️⃣ 리워드 시스템
+
+<table style="width: 100%;">
+<tr>
+<td width="50%">
+
+<img alt="streak_achievement" src="https://github.com/user-attachments/assets/d0b3a495-6b89-4599-86ac-ed22488d6b6c" width="48%" />
+<img alt="mission_success" src="https://github.com/user-attachments/assets/c036a8a0-ad65-47d5-8744-181b6a5e31e7" width="48%" />
+
+</td>
+<td width="50%">
+
+#### 연속 달성 포인트
+
+최대 연속 달성일을 확인하고 동기부여를 받아요.<br>
+7일 연속 루틴 달성 시 100P를 지급받습니다!
+
+</td>
+</tr>
+
+<tr>
+<td>
+<img alt="point_shop" src="https://github.com/user-attachments/assets/8d49b5d0-a3a0-4098-9def-7e63f06cb5fb" width="48%" />
+<img alt="point_withdrawa" src="https://github.com/user-attachments/assets/e206fea2-990c-4817-9fee-c48b1fdab1b3" width="48%" />
+
+</td>
+<td>
+
+#### 기프티콘 & 현금전환
+
+루틴 달성으로 모은 포인트로 기프티콘을 구매하거나<br>
+계좌로 직접 현금 전환할 수 있어요.
+
+</td>
+</tr>
+</table>
+
 
 ## FrontEnd 핵심 기술
 
