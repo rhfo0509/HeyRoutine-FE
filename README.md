@@ -1,181 +1,218 @@
+<div align="center">
 
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/b14c3024-bd49-4eaf-876b-3b060a538d4f" />
 
-# 헤이루틴 (HeyRoutine)
+# 2025 신한은행 해커톤 '새파람' 팀 프로젝트
 
-### 2025 신한은행 해커톤 '새파람' 팀 프로젝트
+<img width="1920" height="1080" alt="title_slide" src="https://github.com/user-attachments/assets/8a651359-a381-4e88-85b6-c117fdc1b91c" />
 
-> 대학생의 건전한 생활 및 소비 습관 형성을 돕는 AI 기반 루틴 관리 서비스
+<br><br>
 
------
+![React Native](https://img.shields.io/badge/React_Native-0.74.5-61DAFB?style=for-the-badge&logo=react)
+![Expo](https://img.shields.io/badge/Expo-51.0.14-000020?style=for-the-badge&logo=expo)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-3178C6?style=for-the-badge&logo=typescript)
+![Zustand](https://img.shields.io/badge/Zustand-5.0.7-764ABC?style=for-the-badge)
+![React Query](https://img.shields.io/badge/React_Query-5.84.2-FF4154?style=for-the-badge&logo=reactquery)
+![Firebase](https://img.shields.io/badge/Firebase-FCM-FFCA28?style=for-the-badge&logo=firebase)
 
-## 🛠️ 기술 스택 (Tech Stack)
+> 대학생들은 학업, 알바, 루틴 관리 등 바쁜 일상을 보내고 있습니다.<br>
+> 하지만 개인의 소비 패턴을 분석하고 맞춤형 루틴을 추천해주는 서비스는 찾기 어려웠습니다.<br>
+> <br>
+> HeyRoutine은 AI로 소비 패턴을 분석해 개인에게 맞는 루틴을 추천하고,<br>
+> 그룹 루틴을 통해 동료들과 함께 실천하며 동기부여를 받을 수 있습니다.
 
-### Front-end
+</div>
 
-  - TypeScript - ver 5.3.3
-  - React-Native (with Expo) - ver 0.74.5
-  - React-Query (Server State) - ver ^5.84.2
-  - Zustand (Client State) - ^5.0.7
-  - Styled-Components - ^5.1.34
+<br>
 
------
+## 프로젝트 배경
 
-## 🚀 시작하기 (Getting Started)
+<br>
 
-1.  **저장소 복제 (Clone)**
+<div align="center">
+<img width="1920" height="1080" alt="overview" src="https://github.com/user-attachments/assets/e33b6660-8d2d-45d6-8360-0793ad3b2f46" />
+</div>
 
-    ```bash
-    git clone https://github.com/HeyRoutine/HeyRoutine-FE.git
-    cd shinhan-HeyRoutine
-    ```
+<br>
 
-2.  **의존성 설치 (Install Dependencies)**
+<div align="center">
+<img width="1920" height="1080" alt="desk_research" src="https://github.com/user-attachments/assets/25651ad0-dbb7-45b8-b2aa-0df6cdc149d4" />
+</div>
 
-    ```bash
-    npm install
-    ```
+<br>
 
-3.  **Expo Go 앱 설치 (Install Expo Go App)**
+<div align="center">
+<img width="1920" height="1080" alt="user_survey_1" src="https://github.com/user-attachments/assets/987d4fe1-c45a-49a8-b960-0f5409912cf6" />
+</div>
 
-      - [https://expo.dev/go](https://expo.dev/go) 사이트에서 **SDK 51 버전을** 선택하여 자신의 휴대폰 기종에 맞는 iOS 또는 Android용 Expo Go 앱을 설치해야 합니다.
+<br>
 
-4.  **개발 서버 실행 (Run)**
+<div align="center">
+<img width="1920" height="1080" alt="user_survey_2" src="https://github.com/user-attachments/assets/498be635-65b2-41bd-8357-0b9f1d8df54e" />
+</div>
 
-    ```bash
-    npx expo start
-    ```
+<br>
 
-      - 개발 서버 실행 이후, 콘솔에 나타나는 QR 코드를 Expo Go 앱으로 스캔하거나 `exp://`로 시작하는 주소를 앱에 직접 입력하여 실행할 수 있습니다.
+## 개발 기간
 
------
-
-## 📂 폴더 구조 (Folder Structure)
-
-`src` 폴더는 직접 작성하는 소스코드를, 루트 폴더는 프로젝트 설정 파일을 관리합니다.
-
-```
-src/
-├── api/            # API 요청 함수
-├── assets/         # 이미지, 폰트 등 정적 파일
-├── components/     # 재사용 컴포넌트
-│   ├── common/       # 앱 전체에서 쓰이는 범용 컴포넌트
-│   └── domain/       # 특정 도메인에만 쓰이는 컴포넌트
-├── hooks/          # 커스텀 훅
-├── navigation/     # 화면 이동(Navigation) 설정
-├── screens/        # 화면 단위 컴포넌트
-├── store/          # 전역 상태 관리
-├── styles/         # 공통 스타일 관리
-├── types/          # 공통 TypeScript 타입
-├── App.tsx         # 앱 최상위 컴포넌트
-└── index.ts        # 앱 진입점
+```markdown
+2025.08.15 ~ 2025.08.31 (약 2주)
 ```
 
------
+## 팀원
 
-## ✨ 코드 컨벤션 (Code Convention)
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/ryuwon2407"><img src="https://avatars.githubusercontent.com/ryuwon2407" width="100px;" alt=""/><br /><b>유준호</b></a><br />Backend</td>
+      <td align="center"><a href="https://github.com/JJaeWooks"><img src="https://avatars.githubusercontent.com/JJaeWooks" width="100px;" alt=""/><br /><b>전재욱</b></a><br />Backend</td>
+      <td align="center"><a href="https://github.com/jangjongwon"><img src="https://avatars.githubusercontent.com/jangjongwon" width="100px;" alt=""/><br /><b>장종원</b></a><br />AI</td>
+      <td align="center"><a href="https://github.com/rhfo0509"><img src="https://avatars.githubusercontent.com/rhfo0509" width="100px;" alt=""/><br /><b>김응서</b></a><br />Frontend</td>
+      <td align="center"><a href="https://github.com/exercit196"><img src="https://avatars.githubusercontent.com/exercit196" width="100px;" alt=""/><br /><b>박규빈</b></a><br />Frontend</td>
+    </tr>
+  </tbody>
+</table>
 
-### 파일명 규칙
+## 시작 가이드
 
-  - **컴포넌트/화면:** `PascalCase.tsx` (예: `RoutineCard.tsx`)
-  - **그 외 (hooks, api 등):** `camelCase.ts` (예: `useAuth.ts`)
+### 설치 및 실행
 
-### 컴포넌트 규칙
+```bash
+# 1. Repository 클론
+git clone https://github.com/your-repo/HeyRoutine-FE.git
+cd HeyRoutine-FE
 
-  - 함수형 컴포넌트와 화살표 함수 사용을 원칙으로 합니다.
+# 2. 패키지 설치
+npx expo install
 
-    ```tsx
-    import React from 'react';
+# 3. 환경 변수 설정
+# .env 파일 생성 후 아래 내용 입력
+EXPO_PUBLIC_API_BASE_URL=your_backend_api_url
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+AWS_REGION=your_aws_region
+S3_BUCKET_NAME=your_s3_bucket
 
-    const MyComponent = () => {
-      return <View />;
-    };
+# 4. 개발 서버 실행
+npx expo start
+```
 
-    export default MyComponent;
-    ```
+### Android APK 빌드
 
-  - Props 타입은 `interface IComponentProps` 형식으로 정의합니다.
+```bash
+# EAS Build를 이용한 프로덕션 빌드
+eas build --platform android --profile production
 
-    ```tsx
-    interface IRoutineCardProps {
-      title: string;
-      completed: boolean;
-    }
+# 또는 로컬 빌드
+npx expo run:android --variant release
+```
 
-    const RoutineCard = ({ title, completed }: IRoutineCardProps) => {
-      // ...
-    };
-    ```
+### Firebase 설정
 
-### 스타일링 규칙
+1. [Firebase Console](https://console.firebase.google.com/)에서 프로젝트 생성
+2. **Android 앱 등록** (`com.shinhan.heyroutine`)
+3. **FCM (Firebase Cloud Messaging)** 활성화
+4. `google-services.json` 파일을 `android/app/` 디렉토리에 추가
 
-  - `styled-components/native` 사용을 원칙으로 합니다.
-  - 색상, 폰트 등 모든 디자인 요소는 `styles/theme.ts` 파일을 참조합니다.
-  - 컴포넌트 파일 내 최상위 `Wrapper` 컴포넌트의 이름은 `Container`로 통일합니다.
-    ```tsx
-    import theme from './styles/theme'; // 예시 경로
-    import styled from 'styled-components/native';
+## 핵심 기능
 
-    const Container = styled.View`
-      flex: 1;
-      background-color: ${theme.colors.background};
-    `;
-    ```
+<div align="center">
+<img width="1920" height="1080" alt="mvp_features" src="https://github.com/user-attachments/assets/3c2e879f-e002-4107-9351-b0c5b3c67bfd" />
+</div>
 
------
+<br>
 
-## 🤝 Git 컨벤션 (Git Convention)
+### 1️⃣ AI 루틴 추천
 
-### 브랜치 전략
+<div align="center">
+<img width="1920" height="1080" alt="ai_routine_feature" src="https://github.com/user-attachments/assets/234688ce-bfc1-4ddb-a84c-537b2f6a8490" />
+</div>
 
-  - `feature/기능명`: 기능 개발 (예: `feature/login-screen`)
-  - `fix/수정내용`: 버그 수정 (예: `fix/header-style-bug`)
+<br>
 
-<!-- end list -->
+### 2️⃣ 단체 루틴 + 커뮤니티
 
-1.  **브랜치 생성:** `develop` 브랜치에서 시작하여, 자신의 작업에 맞는 이름으로 새 브랜치를 만듭니다.
+<div align="center">
+<img width="1920" height="1080" alt="group_routine_feature" src="https://github.com/user-attachments/assets/19591e84-90ad-460a-a9ca-3995144cc758" />
+</div>
 
-    ```bash
-    # develop 브랜치에서 최신 코드를 받아온 후, 새 브랜치를 생성합니다.
-    git checkout develop
-    git pull --rebase origin develop
-    git checkout -b feature/my-new-feature
-    ```
+<br>
 
-2.  **개발:** 새로 만든 브랜치 안에서 자유롭게 코드를 작성하고 커밋합니다.
+### 3️⃣ 소비 루틴 + 소비 패턴 분석
 
-3.  **develop 업데이트 반영:** 작업 중 develop에 새로운 변경사항이 있을 때
+<div align="center">
+<img width="1920" height="1080" alt="spending_analysis_feature" src="https://github.com/user-attachments/assets/ec031f3e-4fe2-4847-abb3-00b93d09c4cd" />
+</div>
 
-    ```bash
-    # develop의 최신 변경사항을 작업 브랜치에 반영
-    git checkout develop
-    git pull --rebase origin develop
-    git checkout feature/my-new-feature
-    git rebase develop
-    ```
+<br>
 
-4.  **Push:** 작업이 끝나면 자신의 브랜치를 원격 저장소(GitHub)에 올립니다.
+### 4️⃣ 금융 상품 추천
 
-    ```bash
-    git push origin feature/my-new-feature
-    ```
+<div align="center">
+<img width="1920" height="1080" alt="financial_products_feature" src="https://github.com/user-attachments/assets/db7c8743-45c3-4531-b517-d8cb899fc8ec" />
+</div>
 
-5.  **Pull Request (PR):** GitHub에서 `develop` 브랜치로 합쳐달라는 Pull Request를 생성합니다.
+<br>
 
-6.  **코드 리뷰 및 Merge:** 다른 팀원이 코드를 검토하고, 이상이 없으면 `develop` 브랜치에 최종적으로 병합(Merge)합니다.
+## FrontEnd 핵심 기술
 
-### 커밋 메시지 규칙
+### FCM 푸시 알림
 
-`타입: 제목` 형식으로 작성합니다.
+- Firebase Cloud Messaging 연동해서 계좌 1원 인증 알림 구현
+- Expo Notifications로 포어그라운드/백그라운드 알림 처리
 
-  - **`feat`**: 새로운 기능 추가
-  - **`fix`**: 버그 수정
-  - **`style`**: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
-  - **`chore`**: 빌드 업무, 패키지 매니저 설정 등 (라이브러리 설치, 폴더 구조 설정 등)
-  - **`docs`**: 문서 수정
+### REST API 연동
 
-**예시:**
+- Axios로 백엔드 API 전부 연결 (인증, 루틴, 분석, 금융, 포인트샵)
+- JWT 토큰 자동 갱신 및 에러 처리 인터셉터 구현
+
+### UI/UX
+
+- 45개 화면, 50개 재사용 컴포넌트 제작
+- React Navigation 사용 (Stack + Bottom Tab)
+- Styled-components로 통일된 디자인 적용
+
+### 상태 관리
+
+- Zustand로 전역 상태 관리 (7개 스토어)
+- React Query로 서버 데이터 캐싱
+- AsyncStorage로 로컬 저장
+
+## 프로젝트 구조
 
 ```
-feat: 로그인 화면 UI 구현
-chore: React Navigation 라이브러리 추가
+HeyRoutine-FE/
+├── src/
+│   ├── screens/           # 화면 컴포넌트 (45개)
+│   │   ├── analysis/      # 분석 화면
+│   │   ├── auth/          # 인증 화면
+│   │   ├── home/          # 홈 화면
+│   │   └── mypage/        # 마이페이지
+│   │
+│   ├── components/        # 재사용 컴포넌트 (50개)
+│   │   ├── common/        # 버튼, 입력, 카드 등
+│   │   └── domain/        # 도메인별 컴포넌트
+│   │
+│   ├── api/               # API 클라이언트
+│   │   ├── client.ts      # Axios 인스턴스
+│   │   ├── auth/          # 인증 API
+│   │   ├── routine/       # 루틴 API
+│   │   ├── analysis/      # 분석 API
+│   │   └── shop/          # 포인트샵 API
+│   │
+│   ├── store/             # Zustand 상태 관리 (7개)
+│   │   ├── authStore.ts
+│   │   ├── userStore.ts
+│   │   └── routineStore.ts
+│   │
+│   ├── navigation/        # React Navigation
+│   │   ├── AuthNavigator.tsx
+│   │   ├── MainNavigator.tsx
+│   │   └── OnboardingNavigator.tsx
+│   │
+│   └── hooks/             # 커스텀 훅 (28개)
+│
+├── android/               # Android 네이티브 코드
+├── app.json               # Expo 설정
+└── package.json           # 의존성 관리
 ```
